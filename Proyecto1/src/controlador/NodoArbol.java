@@ -5,10 +5,23 @@
  */
 package controlador;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Slaifer
  */
-public class NodoArbol {
+
+public class NodoArbol extends JFrame{
+    private double radio = 0.0;
+    private double diameter;
+
+    public NodoArbol() {
+        super ("Dibujar nodos");
+        setSize(150,400);
+        setVisible(true);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+    }
     
+   
 }
